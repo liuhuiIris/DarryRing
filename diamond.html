@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DarryRing</title>
+	<link rel="stylesheet" href="css/reset.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/diamond.css"/>
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>
+</head>
+<script data-main = "dist/js/config.js" src="dist/js/require.js" type="text/javascript" charset="utf-8"></script>
+<script src="dist/js/plugin/plug.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="dist/js/pagin/diamond.min.js" type="text/javascript" charset="utf-8"></script>
+<body>
+	<div class="header"></div>
+
+	<div class="nav"></div>
+
+	<div class="sub_nav"></div>
+	
+	<div class="diamond_banner">
+		<a class="bannerPic" href="javascript:void(0)"></a>
+		<div class="content">
+			<h2>Darry Ring &gt; 求婚钻戒</h2>
+			<div class="search">
+				<input type="text" name="searchkey" id="searchkey" value="" placeholder="请输入关键字搜索" />
+				<a href="javascript:void(0)" class="searchBtn">确定</a>			
+			</div>
+		</div>
+	</div>
+
+	<div class="goods">
+		<div class="content">
+			<ul class="goodtype">
+				<li>
+					<h3>系列</h3>
+					<span><a href="javascript:void(0)">My Heart 系列</a></span>
+					<span><a href="javascript:void(0)">Forever 系列</a></span>
+					<span><a href="javascript:void(0)">Believe 系列</a></span>
+					<span><a href="javascript:void(0)">Love Line 系列</a></span>
+					<span><a href="javascript:void(0)">True Love 系列</a></span>
+					<span><a href="javascript:void(0)">Just You 系列</a></span>
+					<span><a href="javascript:void(0)">With You 系列</a></span>
+					<a href="javascript:void(0)" class="more">更多&gt;</a>
+				</li>
+				
+				<li>
+					<h3>重量(克拉)</h3>
+					<span><a href="javascript:void(0)">10分以下</a></span>
+					<span><a href="javascript:void(0)">10分-30分</a></span>
+					<span><a href="javascript:void(0)">30分-50分</a></span>
+					<span><a href="javascript:void(0)">50分-1克拉</a></span>
+					<span><a href="javascript:void(0)">1 克拉以上</a></span>
+				</li>
+				
+				<li>
+					<h3>钻石形状</h3>
+					<span><a href="javascript:void(0)">传统圆形</a></span>
+					<span><a href="javascript:void(0)">心形</a></span>
+					<span><a href="javascript:void(0)">公主方</a></span>
+				</li>
+				
+				<li>
+					<h3>价格</h3>
+					<span><a href="javascript:void(0)">5000以下</a></span>
+					<span><a href="javascript:void(0)">5001-10000</a></span>
+					<span><a href="javascript:void(0)">10001-20000</a></span>
+					<span><a href="javascript:void(0)">20001-40000</a></span>
+					<span><a href="javascript:void(0)">40000以上</a></span>
+					<span class="pricerange">
+						<input type="text" name="lowprice" id="lowprice" value="" />
+						<i> - </i>
+						<input type="text" name="highprice" id="highprice" value="" />
+						<a href="javascript:void(0)">确定</a>
+					</span>
+					
+				</li>
+			</ul>
+			
+			<ul class="sorttype">
+				<li>排序</li>
+				<li class="dr_sort"><a href="javascript:void(0)">按人气</a></li>
+				<li class="dr_sort"><a href="javascript:void(0)">按销量</a></li>
+				<li class="dr_sort"><a href="javascript:void(0)">按价格</a></li>
+				<li class="page" id="count">
+					<span>共 <b id="totalgoods"></b> 件</span>商品<span> &nbsp;<b id="nowpage"></b>/<b id="totalpage"></b></span>
+					<a href="javascript:void(0)" class="pagepre" id="pagepre"><i></i></a>
+					<a href="javascript:void(0)" class="pagenext" id="pagenext"><i></i></a>
+				</li>
+			</ul>
+			
+			<ul class="goodslist" id="goodslist">
+								
+			</ul>
+		</div>
+	</div>
+
+	<div class="promise"></div>
+
+	<div class="service"></div>
+
+	<div class="footer"></div>
+	
+</body>
+</html>

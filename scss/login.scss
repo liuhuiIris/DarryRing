@@ -1,0 +1,90 @@
+
+.login_header{
+    //阴影设置box-shadow 不占据空间，设置其堆叠次序
+    position: relative; height: 64px; border-bottom: 1px solid #e8cbbd; box-shadow: 0 0 4px #aaa; z-index: 2;
+    .logo{margin-top: 14px;}
+    .right{
+        float: right; margin-top: 22px; line-height: 20px;
+        div{float: left;color:#8d8d8d;}
+        .nologin{width: 140px; text-align: right;}
+        .islogin{display: none; width: 140px; text-align: right; .quit{margin: 0 10px;}}
+        a{color:#8d8d8d;}
+        .register{color: #FFFFFF;}
+        .help{background: url(../img/login/bread_right.png) right no-repeat; padding-right: 10px;}
+    }
+}
+
+
+.swiper-container{
+     position: relative; height: 566px; background: url(../img/login/login2.jpg) center; 
+     .content{position: relative; z-index: 9;top: -566px;}
+     
+     #loginform,#registerbox{
+        .error{border-color: red!important;}
+        .errormsg{border: 1px solid #FF0000; width: 220px; height: 24px; margin: 0 auto; background: #FFF2F2 url(../img/login/ico-error.png) 4px center no-repeat; text-align: left; padding-left: 25px; line-height: 24px; color: #FF0000; position: absolute;  top: 50px; left: 30px; display: none;}
+         
+         position: absolute; width: 310px; border: 1px solid #e4e6e8; border-radius: 3px; background: #ffffff;
+         right: 80px; top: 40px; text-align: center;
+     }
+     
+     #loginform{
+         h2{font-size: 18px; color: #c67c59; margin: 25px auto 50px;}
+         .logintxt,.loginpwd{position: relative; overflow: hidden; margin:20px 28px 10px;}
+         i{position: absolute; left: 12px; top: 12px; display: block; width: 16px; height: 16px;background: url(../img/login/ico-uinput.png) no-repeat;}
+         .icopwd{background-position: left -36px;}
+         #username,#pwd,#loginBtn,#registerBtn{ height: 38px; border: 1px solid #e6e6e6; border-radius: 3px;}
+         #username,#pwd{padding-left: 39px; width: 207px;}
+         #remember{ margin-left: 28px; color: #888888;}
+         label{float: left; color: #888888;}
+         .forget{float: right; margin-right: 28px; color: #888888;}
+         #loginBtn,#registerBtn{display:block; margin: 10px 28px 0;width: 246px; line-height: 38px;}
+         #loginBtn{border-color: #c57d5c; background: #FFFFFF; margin-top: 50px; color: #c57d5c;}
+         #registerBtn{ border-color: #c57d5c; background: #c57d5c; color: #FFFFFF;}
+         
+        h3{color: #c57d5c; margin-top: 15px;}
+         .otherLogin{
+            height: 26px; padding-top: 20px; margin-top: -6px; background: #f9f9f9 url(../img/login/otherLoginHr.png) no-repeat;
+         }
+     }
+     
+     #registerbox{
+         display: none;
+         ul{overflow: hidden; width: 100%; margin-bottom: 35px;
+            li{ height: 46px; line-height: 46px; color: #c67c59;}
+            .phone{float:left;width: 155px;}
+            .email{float: right; width: 154px; border-left: 1px solid #d2d5d7;}
+            .noregister{background: #f5f5f5; border-bottom: 1px solid #d2d5d7; color: #626262;}
+         }
+         
+         form{
+             div{overflow: hidden; margin: 20px auto; width: 248px; height: 40px; position: relative;
+                #id,#registerPwd,#registerPwd,#repeatPwd,#checkradio,#getcheck,#checknum,#refreshcheck{width: 208px; padding-left: 38px; height: 38px; border: 1px solid #e6e6e6; border-radius: 3px;}
+                #checkradio,#checknum{ width: 90px;}
+                #getcheck,#refreshcheck{ width: 104px; float: right; padding-left: 0;}
+                label{position: absolute; left: 10px; top: 11px; background: url(../img/login/ico-uinput.png); width: 16px; height: 16px;}
+             }
+             a{display: inline-block; height: 38px; text-align: center; line-height: 38px;}
+             .acc{
+                 margin-bottom: 0;
+                 a{line-height: 12px; color: #c57d5c; height: 12px;}
+                 label{background: none; width: 240px; position: static;}
+             }
+                          
+             #join{background: #c57d5c; width: 246px; color: #FFFFFF; border: 1px solid #c57d5c; border-radius: 3px; margin: 0 auto 12px;}
+             
+         }
+         .otherRegister{margin-bottom: 10px;
+            .toLogin{color: #999999; float: right; margin-right: 28px;}
+         }
+     }
+     
+     .log{background: url(../img/login/ico-otherLogin.png); display: inline-block; width: 22px; height: 18px; margin: 0 10px;}
+            
+    .log1:hover{background-position: left -27px;}
+    .log2{background-position: -42px 0;}
+    .log2:hover{background-position: -42px -27px;}
+    .log3{background-position: -87px 0;}
+    .log3:hover{background-position: -87px -27px;}
+    .log4{background-position: right 0;}
+    .log4:hover{background-position: right -27px;}
+}

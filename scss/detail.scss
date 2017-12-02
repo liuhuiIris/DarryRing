@@ -1,0 +1,180 @@
+.detail{
+    background: #fef3f1;
+    .content{
+        background: #FFFFFF; height: 500px; padding-bottom: 30px; position: relative;
+        h2{ margin-left: 20px; margin-top: 14px; margin-bottom: 30px; font-size: 12px; color: #888888;}
+        
+        .left{
+            float: left;
+            
+            .productList{
+                width: 60px; height: 340px; margin-left: 20px; float: left;
+                a{display: block; width: 13px; height: 7px; margin: 0 auto; background: url(../img/code_mini/toporb.png);}
+                ul{margin: 12px 0;}
+                li{margin-top: 10px; border: 1px solid #dadada; width: 58px; height: 58px; text-align: center;}
+                img{width: 56px; height: 56px;}
+                .currentPic{
+                    width: 66px; height: 60px; border: none; background: url(../img/code_mini/small_right.png) center no-repeat;
+                    img{ margin-left: -6px; margin-top: 2px;}
+                }
+                .next{ background-position: left -7px;}
+            }
+            
+            
+            .center{
+                float: right;
+            }
+            
+            .nowpic{
+                width: 400px; height: 400px; padding-left: 34px;  position: relative; 
+                .sImg{ overflow: hidden;width: 400px; height: 400px; position: relative;
+                    img{width: 400px; height: 400px; border: 0;}
+                    .cursor{position: absolute; border: 1px solid #999;  background: rgba(0,0,0,0.3); display: none;}
+                    
+                }
+                .next{position: absolute; top: 50%; right: 0; margin-top: -21px; display: block; width: 11px; height: 21px; background: url(../img/code_mini/leftorr.png) right top no-repeat;}
+                .next:hover{background: url(../img/code_mini/right-hover.png); width: 15px; height: 29px; margin-top: -29px;}
+            }
+            
+            
+            .bigpic{
+                 display: none;position: absolute; top: 0; left: 450px; width: 300px; height: 300px; overflow: hidden; border: 1px solid #ccc; z-index: 9;
+                img{position: absolute; left: -50%; top: -50%; }
+            }
+            
+            .share_other{
+                 width: 400px; padding-left: 34px; 
+                  a{line-height: 16px;}
+                 .collect{
+                     padding: 0 18px; background: url(../img/code_mini/love-it.jpg) left center no-repeat; color: #8a5022;
+                 }
+                 .shareto{ display: inline-block; height: 16px; }
+                 .minilogo{
+                     width: 16px; height: 16px; margin-right: 4px; background: url(../img/code_mini/jiathis_ico.png); position: relative; top: 2px;
+                 }
+                 .qzone{background-position: left -64px;}
+                 .weibo{background-position: left -96px;}
+                 .tencent{background-position: left -144px;}
+                 .renren{background-position: left -160px;}
+                 .more{background-position: left -1200px;}
+                 .count{width: 36px; height: 16px; background: url(../img/code_mini/counter.gif) left -64px; text-align: center;}
+                 .count:hover{background-position: right -64px;}
+            }
+            
+        }
+        .right{
+            float: right; width: 412px; margin-right: 20px;
+            h3{font-size: 14px; color: #666695;}
+            .price{font-size: 18px; color: #f00; line-height: 40px;}
+            .recent{
+                overflow: hidden; border-bottom: 1px solid #f1f1f1; padding-bottom: 12px;
+                li{float: left; width: 124px; color: #888888;}
+            }
+            
+            .diamondul{
+                overflow: hidden; margin-top: 18px;
+                li{float: left; width: 180px; margin-bottom: 18px; color: #888888;}
+            }
+            
+            .demand{
+                background: #fef3f1; padding-top: 14px; padding-left: 12px; padding-bottom: 24px;
+                li{height: 30px;line-height: 30px; margin-bottom: 6px;}
+                span{float: left; width: 46px;}
+                #matrial{width: 60px; height: 24px; border: 2px solid #feabab; background: #FFFFFF url(../img/code_mini/br_right.png) right bottom no-repeat; line-height: 24px; text-align: center;}
+                .help{text-decoration: underline; margin-left: 10px; color: #888888;}
+                 #cave,i,.preview{height: 26px; border: 1px solid #cccccc;float: left; }
+                 #cave{padding-left: 5px; width: 140px; margin-right: 4px;}
+                 i{width: 30px; text-align: center; line-height: 26px; background: #FFFFFF; margin-right: 8px;}
+                 .preview{width: 78px; text-align: center; line-height: 26px; background: url(../img/code_mini/ylxg.jpg) repeat-x;}
+            }
+            
+            .morematch{margin-top: 17px; margin-bottom: 17px;}
+            .match{
+                overflow: hidden;
+                li{float: left; margin-right: 10px;
+                  a{width: 63px; height: 26; border: 1px solid #cccccc; text-align: center; line-height: 26px;}
+                  
+                 }
+                 .chose{
+                     a{border: none; width: 61px; height: 24px;}
+                      border: 2px solid #feabab; background: url(../img/code_mini/br_right.png) right bottom no-repeat;
+                 }
+                 
+            }
+            
+            .recive{ color: #888888; margin-top: 10px; margin-bottom: 21px;}
+            
+            #joincar,#buy{ border: 1px solid #d6b870; padding: 12px 24px 12px 36px; margin-right: 8px;}
+            #joincar{background: #d6b870 url(../img/code_mini/all-right_w.png) 22px no-repeat  ; color: #FFFFFF;}
+            #joincar:hover{border-color: #c9a548;background: #c9a548 url(../img/code_mini/all-right_w.png) 22px no-repeat ;}
+            #buy{color: #c9a548; background: url(../img/code_mini/all-right_y.png) 22px no-repeat;}
+            #buy:hover{border-color: #c9a548; background: #c9a548 url(../img/code_mini/all-right_w.png) 22px no-repeat ; color: #FFFFFF;}
+            
+            
+        }
+        
+    }
+}
+
+.tab{
+    background: #fef3f1; padding-top: 20px;
+    .msgList{ width: 932px;
+       height: 35px; padding-left: 68px; border-bottom: 1px solid #d6b870;
+        li{float: left; padding: 11px 32px; background: #FFFFFF; border: 1px solid #e4e4e4; border-bottom: none; margin-right: 5px;}
+        .curTab{border-color: #d6b870; padding-bottom: 12px;}
+        #commentnum{color: #cd505a;}
+    }
+    
+    .tab_content{background: #FFFFFF; text-align: center; display: none; padding-top: 24px;
+        img{display: block;}
+    }
+    
+    .tab1{ display: block;
+        .describe{
+            background: #fef9f8; width: 886px; height: 65px; padding-left: 22px; padding-top: 23px;
+            margin: 0 auto 48px;
+            dl{ overflow: hidden; margin-bottom: 16px; text-align: left;
+                dt{float: left; font-weight: bold; margin-right: 40px;}
+                dd{float: left; width: 160px; color: #888888;}
+                span{color: #000000;}
+            }
+        }
+    }
+    
+    .tab2{text-align: left; width: 900px; padding: 24px 50px;
+        h2{font-size: 14px; font-weight: bold; border-bottom: 1px solid #CCCCCC; padding-bottom: 12px;}
+        div{border-bottom: 1px solid #CCCCCC; height: 60px; padding: 20px 0; line-height: 20px; color: #666666;}
+        .right{text-align: center; float: right; width: 120px; margin-top: 15px;}
+        span{display: block;}
+    }
+    
+       
+}
+
+.deepknow{background: #fef3f1; padding: 36px 0 20px;
+    .content{background: #FFFFFF; overflow: hidden; padding: 24px 0;}
+    dl{float: left; width: 225px; border-right: 1px solid #dbdbdb; height: 200px; padding: 10px 50px 0; text-align: center;}
+    .noborder{border: none;}
+    .weichat{
+        dt{margin-bottom: 14px;}
+    }
+    i{display: block; width: 50px; height: 41px; background: url(../img/code_mini/phone.png) no-repeat; margin: 0 auto;}
+    h3{font-size: 18px; margin: 12px auto;}
+    
+    .onlinephone{
+        p{line-height: 26px; color: #999999;}
+        a{color: #8e4f1b; line-height: 26px;}
+    }
+    
+    .thetaxi{
+        i{background-position: right 0;}
+        #chosestore{width: 225px; height: 24px; border: 1px solid #abadb3;}
+        input{height: 24px; border: 1px solid #cccccc; margin: 10px auto;}
+        #name{width: 76px;}
+        #phonenum{width: 140px; float: right;}
+        #affirm{padding: 12px 23px 12px 36px; background: #d6b870 url(../img/code_mini/all-right_w.png) 22px no-repeat; color: #FFFFFF;}
+        #affirm:hover{background-color: #CAA752;}
+    }
+    
+}
+

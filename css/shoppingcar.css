@@ -1,0 +1,45 @@
+body { background: #fef3f1; }
+
+.content { background: #FFFFFF; width: 940px; padding: 0 20px; }
+
+.car_header { margin-bottom: 21px; overflow: hidden; }
+.car_header h1 { float: left; padding-top: 26px; }
+.car_header ul { float: right; padding-top: 50px; }
+.car_header ul li { float: left; color: #666666; margin-left: 12px; }
+.car_header ul span { margin: 0 10px; }
+.car_header ul a { color: #666666; }
+.car_header ul .quit { color: #888888; }
+.car_header ul .help { color: #333333; }
+
+.step { width: 940px; height: 38px; background: url(../img/shoppingCar/shoop_othernav.jpg) no-repeat; margin-bottom: 46px; }
+
+.main { overflow: hidden; min-height: 410px; }
+.main h2 { padding-bottom: 12px; font-size: 14px; line-height: 14px; color: #666666; }
+.main .mycar { float: left; width: 722px; border-top: 1px solid #dbdbdb; }
+.main .mycar table { text-align: center; }
+.main .mycar table input { float: none; }
+.main .mycar table img { width: 100px; height: 100px; }
+.main .mycar table th { height: 40px; line-height: 40px; font-size: 14px; border-bottom: 2px solid #CCCCCC; }
+.main .mycar table td { border-bottom: 1px solid #CCCCCC; }
+.main .mycar .account { width: 714px; height: 82px; border: 4px solid #fef3f1; margin-top: 25px; line-height: 82px; overflow: hidden; }
+.main .mycar .account a { padding-left: 20px; }
+.main .mycar .account .clearcar { padding-right: 102px; }
+.main .mycar .account span { padding-right: 26px; }
+.main .mycar .account i { color: #ff4c4c; padding: 0 8px; }
+.main .mycar .account .total { font-weight: bold; }
+.main .mycar .account .buynow { float: right; margin-top: 25px; margin-right: 20px; width: 150px; height: 36px; background: #d6b870 url(../img/code_mini/all-right_w.png) 40px no-repeat; line-height: 36px; text-align: center; color: #FFFFFF; }
+.main .mycar .account .buynow:hover { background-color: #CAA752; }
+.main .right { float: right; width: 170px; padding: 25px 14px 0; border: 1px solid #e6e6e6; }
+.main .right h2 { font-size: 18px; color: #333333; }
+.main .right h3 { color: #666666; font-size: 14px; margin-bottom: 12px; }
+.main .right span { color: #888888; margin-top: 12px; }
+.main .right div { border-top: 1px solid #dbdbdb; padding: 21px 0; }
+.main .right img { margin-top: 12px; }
+.main .right p { padding-left: 36px; color: #333333; background: url(../img/shoppingCar/small_tb.png) no-repeat; line-height: 20px; margin-bottom: 10px; }
+.main .right .p2 { background-position: 0 -22px; }
+.main .right .p3 { background-position: 0 -44px; }
+.main .right .p4 { background-position: 0 -66px; }
+
+.car_footer { text-align: center; padding: 74px 0 40px; }
+.car_footer p { line-height: 24px; color: #888888; }
+.car_footer img { margin-top: 26px; }

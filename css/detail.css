@@ -1,0 +1,97 @@
+.detail { background: #fef3f1; }
+.detail .content { background: #FFFFFF; height: 500px; padding-bottom: 30px; position: relative; }
+.detail .content h2 { margin-left: 20px; margin-top: 14px; margin-bottom: 30px; font-size: 12px; color: #888888; }
+.detail .content .left { float: left; }
+.detail .content .left .productList { width: 60px; height: 340px; margin-left: 20px; float: left; }
+.detail .content .left .productList a { display: block; width: 13px; height: 7px; margin: 0 auto; background: url(../img/code_mini/toporb.png); }
+.detail .content .left .productList ul { margin: 12px 0; }
+.detail .content .left .productList li { margin-top: 10px; border: 1px solid #dadada; width: 58px; height: 58px; text-align: center; }
+.detail .content .left .productList img { width: 56px; height: 56px; }
+.detail .content .left .productList .currentPic { width: 66px; height: 60px; border: none; background: url(../img/code_mini/small_right.png) center no-repeat; }
+.detail .content .left .productList .currentPic img { margin-left: -6px; margin-top: 2px; }
+.detail .content .left .productList .next { background-position: left -7px; }
+.detail .content .left .center { float: right; }
+.detail .content .left .nowpic { width: 400px; height: 400px; padding-left: 34px; position: relative; }
+.detail .content .left .nowpic .sImg { overflow: hidden; width: 400px; height: 400px; position: relative; }
+.detail .content .left .nowpic .sImg img { width: 400px; height: 400px; border: 0; }
+.detail .content .left .nowpic .sImg .cursor { position: absolute; border: 1px solid #999; background: rgba(0, 0, 0, 0.3); display: none; }
+.detail .content .left .nowpic .next { position: absolute; top: 50%; right: 0; margin-top: -21px; display: block; width: 11px; height: 21px; background: url(../img/code_mini/leftorr.png) right top no-repeat; }
+.detail .content .left .nowpic .next:hover { background: url(../img/code_mini/right-hover.png); width: 15px; height: 29px; margin-top: -29px; }
+.detail .content .left .bigpic { display: none; position: absolute; top: 0; left: 450px; width: 300px; height: 300px; overflow: hidden; border: 1px solid #ccc; z-index: 9; }
+.detail .content .left .bigpic img { position: absolute; left: -50%; top: -50%; }
+.detail .content .left .share_other { width: 400px; padding-left: 34px; }
+.detail .content .left .share_other a { line-height: 16px; }
+.detail .content .left .share_other .collect { padding: 0 18px; background: url(../img/code_mini/love-it.jpg) left center no-repeat; color: #8a5022; }
+.detail .content .left .share_other .shareto { display: inline-block; height: 16px; }
+.detail .content .left .share_other .minilogo { width: 16px; height: 16px; margin-right: 4px; background: url(../img/code_mini/jiathis_ico.png); position: relative; top: 2px; }
+.detail .content .left .share_other .qzone { background-position: left -64px; }
+.detail .content .left .share_other .weibo { background-position: left -96px; }
+.detail .content .left .share_other .tencent { background-position: left -144px; }
+.detail .content .left .share_other .renren { background-position: left -160px; }
+.detail .content .left .share_other .more { background-position: left -1200px; }
+.detail .content .left .share_other .count { width: 36px; height: 16px; background: url(../img/code_mini/counter.gif) left -64px; text-align: center; }
+.detail .content .left .share_other .count:hover { background-position: right -64px; }
+.detail .content .right { float: right; width: 412px; margin-right: 20px; }
+.detail .content .right h3 { font-size: 14px; color: #666695; }
+.detail .content .right .price { font-size: 18px; color: #f00; line-height: 40px; }
+.detail .content .right .recent { overflow: hidden; border-bottom: 1px solid #f1f1f1; padding-bottom: 12px; }
+.detail .content .right .recent li { float: left; width: 124px; color: #888888; }
+.detail .content .right .diamondul { overflow: hidden; margin-top: 18px; }
+.detail .content .right .diamondul li { float: left; width: 180px; margin-bottom: 18px; color: #888888; }
+.detail .content .right .demand { background: #fef3f1; padding-top: 14px; padding-left: 12px; padding-bottom: 24px; }
+.detail .content .right .demand li { height: 30px; line-height: 30px; margin-bottom: 6px; }
+.detail .content .right .demand span { float: left; width: 46px; }
+.detail .content .right .demand #matrial { width: 60px; height: 24px; border: 2px solid #feabab; background: #FFFFFF url(../img/code_mini/br_right.png) right bottom no-repeat; line-height: 24px; text-align: center; }
+.detail .content .right .demand .help { text-decoration: underline; margin-left: 10px; color: #888888; }
+.detail .content .right .demand #cave, .detail .content .right .demand i, .detail .content .right .demand .preview { height: 26px; border: 1px solid #cccccc; float: left; }
+.detail .content .right .demand #cave { padding-left: 5px; width: 140px; margin-right: 4px; }
+.detail .content .right .demand i { width: 30px; text-align: center; line-height: 26px; background: #FFFFFF; margin-right: 8px; }
+.detail .content .right .demand .preview { width: 78px; text-align: center; line-height: 26px; background: url(../img/code_mini/ylxg.jpg) repeat-x; }
+.detail .content .right .morematch { margin-top: 17px; margin-bottom: 17px; }
+.detail .content .right .match { overflow: hidden; }
+.detail .content .right .match li { float: left; margin-right: 10px; }
+.detail .content .right .match li a { width: 63px; height: 26; border: 1px solid #cccccc; text-align: center; line-height: 26px; }
+.detail .content .right .match .chose { border: 2px solid #feabab; background: url(../img/code_mini/br_right.png) right bottom no-repeat; }
+.detail .content .right .match .chose a { border: none; width: 61px; height: 24px; }
+.detail .content .right .recive { color: #888888; margin-top: 10px; margin-bottom: 21px; }
+.detail .content .right #joincar, .detail .content .right #buy { border: 1px solid #d6b870; padding: 12px 24px 12px 36px; margin-right: 8px; }
+.detail .content .right #joincar { background: #d6b870 url(../img/code_mini/all-right_w.png) 22px no-repeat; color: #FFFFFF; }
+.detail .content .right #joincar:hover { border-color: #c9a548; background: #c9a548 url(../img/code_mini/all-right_w.png) 22px no-repeat; }
+.detail .content .right #buy { color: #c9a548; background: url(../img/code_mini/all-right_y.png) 22px no-repeat; }
+.detail .content .right #buy:hover { border-color: #c9a548; background: #c9a548 url(../img/code_mini/all-right_w.png) 22px no-repeat; color: #FFFFFF; }
+
+.tab { background: #fef3f1; padding-top: 20px; }
+.tab .msgList { width: 932px; height: 35px; padding-left: 68px; border-bottom: 1px solid #d6b870; }
+.tab .msgList li { float: left; padding: 11px 32px; background: #FFFFFF; border: 1px solid #e4e4e4; border-bottom: none; margin-right: 5px; }
+.tab .msgList .curTab { border-color: #d6b870; padding-bottom: 12px; }
+.tab .msgList #commentnum { color: #cd505a; }
+.tab .tab_content { background: #FFFFFF; text-align: center; display: none; padding-top: 24px; }
+.tab .tab_content img { display: block; }
+.tab .tab1 { display: block; }
+.tab .tab1 .describe { background: #fef9f8; width: 886px; height: 65px; padding-left: 22px; padding-top: 23px; margin: 0 auto 48px; }
+.tab .tab1 .describe dl { overflow: hidden; margin-bottom: 16px; text-align: left; }
+.tab .tab1 .describe dl dt { float: left; font-weight: bold; margin-right: 40px; }
+.tab .tab1 .describe dl dd { float: left; width: 160px; color: #888888; }
+.tab .tab1 .describe dl span { color: #000000; }
+.tab .tab2 { text-align: left; width: 900px; padding: 24px 50px; }
+.tab .tab2 h2 { font-size: 14px; font-weight: bold; border-bottom: 1px solid #CCCCCC; padding-bottom: 12px; }
+.tab .tab2 div { border-bottom: 1px solid #CCCCCC; height: 60px; padding: 20px 0; line-height: 20px; color: #666666; }
+.tab .tab2 .right { text-align: center; float: right; width: 120px; margin-top: 15px; }
+.tab .tab2 span { display: block; }
+
+.deepknow { background: #fef3f1; padding: 36px 0 20px; }
+.deepknow .content { background: #FFFFFF; overflow: hidden; padding: 24px 0; }
+.deepknow dl { float: left; width: 225px; border-right: 1px solid #dbdbdb; height: 200px; padding: 10px 50px 0; text-align: center; }
+.deepknow .noborder { border: none; }
+.deepknow .weichat dt { margin-bottom: 14px; }
+.deepknow i { display: block; width: 50px; height: 41px; background: url(../img/code_mini/phone.png) no-repeat; margin: 0 auto; }
+.deepknow h3 { font-size: 18px; margin: 12px auto; }
+.deepknow .onlinephone p { line-height: 26px; color: #999999; }
+.deepknow .onlinephone a { color: #8e4f1b; line-height: 26px; }
+.deepknow .thetaxi i { background-position: right 0; }
+.deepknow .thetaxi #chosestore { width: 225px; height: 24px; border: 1px solid #abadb3; }
+.deepknow .thetaxi input { height: 24px; border: 1px solid #cccccc; margin: 10px auto; }
+.deepknow .thetaxi #name { width: 76px; }
+.deepknow .thetaxi #phonenum { width: 140px; float: right; }
+.deepknow .thetaxi #affirm { padding: 12px 23px 12px 36px; background: #d6b870 url(../img/code_mini/all-right_w.png) 22px no-repeat; color: #FFFFFF; }
+.deepknow .thetaxi #affirm:hover { background-color: #CAA752; }

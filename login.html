@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DarryRing</title>
+	<link rel="stylesheet" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/login.css"/>
+	<style type="text/css">
+		
+	</style>
+</head>
+<script data-main = "dist/js/config.js" src="dist/js/require.js" type="text/javascript" charset="utf-8"></script>
+<script src="dist/js/plugin/plug.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="dist/js/pagin/login.min.js" type="text/javascript" charset="utf-8"></script>
+<body>
+	
+	<div class="login_header">
+		<div class="content">
+			<h1 class="logo"><a href="index.html"><img src="img/login/logo.png"/></a></h1>
+			<div class="right">
+				<div class="islogin">
+					你好!<span class="sayhiname"></span>
+					<a href="javascript:void(0)" class="quit">退出</a>
+				</div>
+				
+				<div class="nologin">
+					<a href="login.html" class="login">登录</a>
+					<a href="javascript:void(0)" class="register">加入DR族</a>					
+				</div>
+	
+				<div class="tel">400 01 13520</div>
+				
+				<a href="javascript:void(0)" class="help">帮助中心</a>
+			
+			</div>
+		</div>
+	</div>
+	
+	 <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="javascript:void(0)"><img src="img/login/login2.jpg"/></a></div>
+            <div class="swiper-slide" ><a href="javascript:void(0)"><img src="img/login/login.jpg"/></a></div>
+        </div>
+         <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        
+        	<div class="content">
+			<form id="loginform" method="post">
+				<h2>DR族-登录</h2>
+				<div class="errormsg"></div>
+				<div class="logintxt">
+					<i class="icouser"></i><input type="text" name="username" id="username" value="" placeholder="请输入您的邮箱/手机号码" />
+				</div>
+				<div class="loginpwd">
+					<i class="icopwd"></i><input type="password" name="pwd" id="pwd" value="" placeholder="请输入密码" />
+				</div>
+				<input type="checkbox" name="remember" id="remember" value="" />
+				<label for="remember">记住密码</label>
+				<a href="javascript:void(0)" class="forget">忘记密码?</a>
+				<a href="javascript:void(0)" id="loginBtn">登录</a>
+				<a href="javascript:void(0)" id="registerBtn">加入DP家族</a>
+				
+				<h3>第三方账户登录</h3>
+				<div class="otherLogin">
+					<a href="javascript:void(0)" class="log log1"></a>
+					<a href="javascript:void(0)" class="log log2"></a>
+					<a href="javascript:void(0)" class="log log3"></a>
+					<a href="javascript:void(0)" class="log log4"></a>
+				</div>
+			</form>
+			
+			<div id="registerbox">
+				<ul>
+					<li class="phone">手机注册</li>
+					<li class="email noregister">邮箱注册</li>
+				</ul>
+				<div class="errormsg"></div>
+				
+				<form id="registerform" action="" method="get">
+					<div class="registerTxt">
+						<label for="id"></label><input type="text" name="" id="id" value="" placeholder="请输入您注册的手机号码" />
+					</div>
+					<div class="registerPwd">
+						<label for="registerPwd"></label><input type="password" name="registerPwd" id="registerPwd" value="" placeholder="请输入长度为6-20位数的密码"/><i class="key"></i>
+					</div>
+					<div class="rePwd">
+						<label for="repeatPwd"></label><input type="password" name="repeatPwd" id="repeatPwd" value="" placeholder="请再次确认密码"/><i class="key"></i>
+					</div>
+					<div class="telcheck">
+						<label for="checkradio"></label><input type="text" name="checkradio" id="checkradio" value="" placeholder="输入验证码"/>
+						<a href="javascript:void(0)" id="getcheck">获取语音验证码</a>
+					</div>
+					<div class="check">
+						<label for="checknum"></label><input type="text" name="checknum" id="checknum" value="" placeholder="请输入验证码" />
+						<input type="text" name="refreshcheck"  id="refreshcheck" disabled="disabled" value="点击获取验证码" />	
+					</div>
+					
+					<div class="acc">
+						<input type="checkbox" name="accept" id="accept" value=""/><label for="accept">同意Darry Ring用户<a href="javascript:void(0)">注册协议</a>和<a href="javascript:void(0)">隐私条款</a></label>
+					</div>
+					
+					<a href="javascript:void(0)" id="join">立即加入DR族</a>
+				</form>
+				
+				<div class="otherRegister">
+					<a href="javascript:void(0)" class="log log1"></a>
+					<a href="javascript:void(0)" class="log log2"></a>
+					<a href="javascript:void(0)" class="log log3"></a>
+					<a href="javascript:void(0)" class="log log4"></a>
+					<a href="javascript:void(0)" class="toLogin">&gt;已有账户登录</a>
+				</div>
+			</div>
+		
+		</div>
+	
+        
+    </div>
+	
+	
+	<div class="promise">
+		<div class="content">
+			<dl class="pic1">
+				<dt><a href="javascript:void(0)"><i></i></a></dt>
+				<dd>权威认证</dd>
+			</dl>
+			<dl class="pic2">
+				<dt><a href="javascript:void(0)"><i></i></a></dt>
+				<dd>一钻双证</dd>
+			</dl>
+			<dl class="pic3">
+				<dt><a href="javascript:void(0)"><i></i></a></dt>
+				<dd>终生保养</dd>
+			</dl>
+			<dl  class="pic4">
+				<dt><a href="javascript:void(0)"><i></i></a></dt>
+				<dd>以大换小</dd>
+			</dl>
+			<dl class="pic5">
+				<dt><a href="javascript:void(0)"><i></i></a></dt>
+				<dd>15天退换</dd>
+			</dl>
+			<dl class="pic6">
+				<dt><a href="javascript:void(0)"><i></i></a></dt>
+				<dd>全国免运费</dd>
+			</dl>
+			<dl class="pic7">
+				<dt><a href="javascript:void(0)"><i></i></a></dt>
+				<dd>全程保险</dd>
+			</dl>
+		</div>
+	</div>
+
+	<div class="service">
+		<div class="content">
+			<ul>
+				<li><a href="javascript:void(0)">关注我们</a>
+					<div class="share">
+						<a href="javascript:void(0)" class="icon1"></a>
+						<a href="javascript:void(0)" class="icon2"></a>
+						<a href="javascript:void(0)" class="icon3"></a>
+						<a href="javascript:void(0)" class="icon4"></a>
+						<a href="javascript:void(0)" class="icon5"></a>
+						<img src="img/same/ew.jpg" alt="">
+					</div>
+				</li>
+				<li><a href="javascript:void(0)">真爱查询</a></li>
+				<li><a href="javascript:void(0)">实体店免费预约</a></li>
+				<li><a href="javascript:void(0)">在线客服</a></li>
+			</ul>
+			<div class="hotline">
+				<p>24小时全国免费服务热线</p>
+				<img src="img/same/tel.png" alt="">
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="content">
+			<div class="links">
+				<ul>
+					<li class="noborder">
+						<h3>关于我们</h3>
+						<p><a href="javascript:void(0)">权威认证</a></p>
+						<p><a href="javascript:void(0)">合作专区</a></p>
+						<p><a href="javascript:void(0)">加入我们</a></p>
+					</li>
+				
+					<li>
+						<h3>购物指南</h3>
+						<p><a href="javascript:void(0)">购买流程</a></p>
+						<p><a href="javascript:void(0)">支付方式</a></p>
+						<p><a href="javascript:void(0)">配送流程</a></p>
+					</li>
+				
+					<li>
+						<h3>售后服务</h3>
+						<p><a href="javascript:void(0)">退货流程</a></p>
+						<p><a href="javascript:void(0)">办理售后</a></p>
+						<p><a href="javascript:void(0)">15天退换</a></p>
+					</li>
+					
+					<li>
+						<h3>帮助中心</h3>
+						<p><a href="javascript:void(0)">注册流程</a></p>
+						<p><a href="javascript:void(0)">投诉建议</a></p>
+						<p><a href="javascript:void(0)">网站地图</a></p>
+					</li>
+					
+					<li>
+						<h3>服务条款</h3>
+						<p><a href="javascript:void(0)">终生保养</a></p>
+						<p><a href="javascript:void(0)">注册协议</a></p>
+						<p><a href="javascript:void(0)">隐私声明</a></p>
+					</li>
+		
+					<li>
+						<h3>DR资讯</h3>
+						<p><a href="javascript:void(0)">钻石百科</a></p>
+						<p><a href="javascript:void(0)">产品百科</a></p>
+						<p><a href="javascript:void(0)">求婚指南</a></p>
+					</li>
+				</ul>
+			</div>
+
+			<div class="copyright">
+				<p>Copyright &copy; 2006-2016 www.darryring.com 戴瑞珠宝 All Rights Reserved. 粤ICP备11012085号-2</p>
+				<p>ICP经营许可证粤B2-20140279 | 中国互联网违法信息举报中心 | 中国公安网络110报警服务 | 本网站提供所售商品的正式发票</p>
+				<p><a href="javascript:void(0)">中文（简体）</a><a href="javascript:void(0)">/ 中文（繁体）/</a><a href="javascript:void(0)">  English</a></p>
+			</div>
+		</div>
+		
+	</div>
+	
+</body>
+</html>
